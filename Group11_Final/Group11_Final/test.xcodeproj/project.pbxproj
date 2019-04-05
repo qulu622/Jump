@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504F98561E235B7D00A8A381 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 504F98531E235B7D00A8A381 /* bubble.png */; };
+		504F98581E235B7D00A8A381 /* joyfish.png in Resources */ = {isa = PBXBuildFile; fileRef = 504F98551E235B7D00A8A381 /* joyfish.png */; };
+		504F98601E2387CE00A8A381 /* boss.png in Resources */ = {isa = PBXBuildFile; fileRef = 504F985F1E2387CE00A8A381 /* boss.png */; };
+		50DC81BA1E2336BD006341C4 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DC81B91E2336BD006341C4 /* start.png */; };
+		CE03B9F71E2681DA007A6795 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = CE03B9F61E2681DA007A6795 /* help.png */; };
+		CE3A1C751E26C2000006F826 /* dead.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3A1C741E26C2000006F826 /* dead.png */; };
+		CEA3B0391E066FE300B8F83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B0381E066FE300B8F83E /* main.m */; };
+		CEA3B03C1E066FE300B8F83E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B03B1E066FE300B8F83E /* AppDelegate.m */; };
+		CEA3B03E1E066FE300B8F83E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B03D1E066FE300B8F83E /* GameScene.sks */; };
+		CEA3B0401E066FE300B8F83E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B03F1E066FE300B8F83E /* Actions.sks */; };
+		CEA3B0431E066FE300B8F83E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B0421E066FE300B8F83E /* GameScene.m */; };
+		CEA3B0461E066FE300B8F83E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B0451E066FE300B8F83E /* GameViewController.m */; };
+		CEA3B0491E066FE300B8F83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B0471E066FE300B8F83E /* Main.storyboard */; };
+		CEA3B04B1E066FE300B8F83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B04A1E066FE300B8F83E /* Assets.xcassets */; };
+		CEA3B04E1E066FE300B8F83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B04C1E066FE300B8F83E /* LaunchScreen.storyboard */; };
+		CEA3B0591E066FE300B8F83E /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B0581E066FE300B8F83E /* testTests.m */; };
+		CEA3B0641E066FE300B8F83E /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B0631E066FE300B8F83E /* testUITests.m */; };
+		CEA3B0721E06706B00B8F83E /* bob-esponja.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B0711E06706B00B8F83E /* bob-esponja.png */; };
+		CEBC333B1E1656970061E389 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBC333A1E1656970061E389 /* 2.png */; };
+		CEC1DF271E1E3A6400292913 /* bob-esponja_reverse.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC1DF261E1E3A6400292913 /* bob-esponja_reverse.png */; };
+		CEE9031F1E18D5BB0044FC9E /* SoundOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE9031A1E18D5BB0044FC9E /* SoundOff.png */; };
+		CEE903201E18D5BB0044FC9E /* SoundOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE9031B1E18D5BB0044FC9E /* SoundOn.png */; };
+		CEE903211E18D5BB0044FC9E /* Spongebob Closing Theme Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE9031C1E18D5BB0044FC9E /* Spongebob Closing Theme Song.mp3 */; };
+		CEE903221E18D5BB0044FC9E /* SpongeBob SquarePants Production Music - Tripping Upstairs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE9031D1E18D5BB0044FC9E /* SpongeBob SquarePants Production Music - Tripping Upstairs.mp3 */; };
+		CEE903231E18D5BB0044FC9E /* SpongeBob SquarePants theme instrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE9031E1E18D5BB0044FC9E /* SpongeBob SquarePants theme instrumental.mp3 */; };
+		CEE9032B1E18F3F50044FC9E /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE9032A1E18F3F50044FC9E /* HelpViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA3B0551E066FE300B8F83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA3B02C1E066FE300B8F83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA3B0331E066FE300B8F83E;
+			remoteInfo = test;
+		};
+		CEA3B0601E066FE300B8F83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA3B02C1E066FE300B8F83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA3B0331E066FE300B8F83E;
+			remoteInfo = test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		504F98531E235B7D00A8A381 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		504F98551E235B7D00A8A381 /* joyfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joyfish.png; sourceTree = "<group>"; };
+		504F985F1E2387CE00A8A381 /* boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boss.png; sourceTree = "<group>"; };
+		50DC81B91E2336BD006341C4 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		CE03B9F61E2681DA007A6795 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		CE3A1C741E26C2000006F826 /* dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dead.png; sourceTree = "<group>"; };
+		CEA3B0341E066FE300B8F83E /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA3B0381E066FE300B8F83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA3B03A1E066FE300B8F83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA3B03B1E066FE300B8F83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA3B03D1E066FE300B8F83E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CEA3B03F1E066FE300B8F83E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CEA3B0411E066FE300B8F83E /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CEA3B0421E066FE300B8F83E /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CEA3B0441E066FE300B8F83E /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CEA3B0451E066FE300B8F83E /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CEA3B0481E066FE300B8F83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA3B04A1E066FE300B8F83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA3B04D1E066FE300B8F83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA3B04F1E066FE300B8F83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA3B0541E066FE300B8F83E /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA3B0581E066FE300B8F83E /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		CEA3B05A1E066FE300B8F83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA3B05F1E066FE300B8F83E /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA3B0631E066FE300B8F83E /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
+		CEA3B0651E066FE300B8F83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA3B0711E06706B00B8F83E /* bob-esponja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bob-esponja.png"; sourceTree = "<group>"; };
+		CEBC333A1E1656970061E389 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CEC1DF261E1E3A6400292913 /* bob-esponja_reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bob-esponja_reverse.png"; sourceTree = "<group>"; };
+		CEE9031A1E18D5BB0044FC9E /* SoundOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoundOff.png; sourceTree = "<group>"; };
+		CEE9031B1E18D5BB0044FC9E /* SoundOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoundOn.png; sourceTree = "<group>"; };
+		CEE9031C1E18D5BB0044FC9E /* Spongebob Closing Theme Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Spongebob Closing Theme Song.mp3"; sourceTree = "<group>"; };
+		CEE9031D1E18D5BB0044FC9E /* SpongeBob SquarePants Production Music - Tripping Upstairs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SpongeBob SquarePants Production Music - Tripping Upstairs.mp3"; sourceTree = "<group>"; };
+		CEE9031E1E18D5BB0044FC9E /* SpongeBob SquarePants theme instrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SpongeBob SquarePants theme instrumental.mp3"; sourceTree = "<group>"; };
+		CEE903291E18F3F50044FC9E /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		CEE9032A1E18F3F50044FC9E /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA3B0311E066FE300B8F83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA3B0511E066FE300B8F83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA3B05C1E066FE300B8F83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA3B02B1E066FE300B8F83E = {
+			isa = PBXGroup;
+			children = (
+				CEA3B0361E066FE300B8F83E /* test */,
+				CEA3B0571E066FE300B8F83E /* testTests */,
+				CEA3B0621E066FE300B8F83E /* testUITests */,
+				CEA3B0351E066FE300B8F83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA3B0351E066FE300B8F83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B0341E066FE300B8F83E /* test.app */,
+				CEA3B0541E066FE300B8F83E /* testTests.xctest */,
+				CEA3B05F1E066FE300B8F83E /* testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA3B0361E066FE300B8F83E /* test */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A1C741E26C2000006F826 /* dead.png */,
+				CE03B9F61E2681DA007A6795 /* help.png */,
+				504F985F1E2387CE00A8A381 /* boss.png */,
+				504F98531E235B7D00A8A381 /* bubble.png */,
+				504F98551E235B7D00A8A381 /* joyfish.png */,
+				50DC81B91E2336BD006341C4 /* start.png */,
+				CEC1DF261E1E3A6400292913 /* bob-esponja_reverse.png */,
+				CEE9031A1E18D5BB0044FC9E /* SoundOff.png */,
+				CEE9031B1E18D5BB0044FC9E /* SoundOn.png */,
+				CEE9031C1E18D5BB0044FC9E /* Spongebob Closing Theme Song.mp3 */,
+				CEE9031D1E18D5BB0044FC9E /* SpongeBob SquarePants Production Music - Tripping Upstairs.mp3 */,
+				CEE9031E1E18D5BB0044FC9E /* SpongeBob SquarePants theme instrumental.mp3 */,
+				CEBC333A1E1656970061E389 /* 2.png */,
+				CEA3B0711E06706B00B8F83E /* bob-esponja.png */,
+				CEA3B03A1E066FE300B8F83E /* AppDelegate.h */,
+				CEA3B03B1E066FE300B8F83E /* AppDelegate.m */,
+				CEA3B03D1E066FE300B8F83E /* GameScene.sks */,
+				CEA3B03F1E066FE300B8F83E /* Actions.sks */,
+				CEA3B0411E066FE300B8F83E /* GameScene.h */,
+				CEA3B0421E066FE300B8F83E /* GameScene.m */,
+				CEA3B0441E066FE300B8F83E /* GameViewController.h */,
+				CEA3B0451E066FE300B8F83E /* GameViewController.m */,
+				CEE903291E18F3F50044FC9E /* HelpViewController.h */,
+				CEE9032A1E18F3F50044FC9E /* HelpViewController.m */,
+				CEA3B0471E066FE300B8F83E /* Main.storyboard */,
+				CEA3B04A1E066FE300B8F83E /* Assets.xcassets */,
+				CEA3B04C1E066FE300B8F83E /* LaunchScreen.storyboard */,
+				CEA3B04F1E066FE300B8F83E /* Info.plist */,
+				CEA3B0371E066FE300B8F83E /* Supporting Files */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		CEA3B0371E066FE300B8F83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B0381E066FE300B8F83E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA3B0571E066FE300B8F83E /* testTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B0581E066FE300B8F83E /* testTests.m */,
+				CEA3B05A1E066FE300B8F83E /* Info.plist */,
+			);
+			path = testTests;
+			sourceTree = "<group>";
+		};
+		CEA3B0621E066FE300B8F83E /* testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B0631E066FE300B8F83E /* testUITests.m */,
+				CEA3B0651E066FE300B8F83E /* Info.plist */,
+			);
+			path = testUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA3B0331E066FE300B8F83E /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA3B0681E066FE300B8F83E /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				CEA3B0301E066FE300B8F83E /* Sources */,
+				CEA3B0311E066FE300B8F83E /* Frameworks */,
+				CEA3B0321E066FE300B8F83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = CEA3B0341E066FE300B8F83E /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA3B0531E066FE300B8F83E /* testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA3B06B1E066FE300B8F83E /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildPhases = (
+				CEA3B0501E066FE300B8F83E /* Sources */,
+				CEA3B0511E066FE300B8F83E /* Frameworks */,
+				CEA3B0521E066FE300B8F83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA3B0561E066FE300B8F83E /* PBXTargetDependency */,
+			);
+			name = testTests;
+			productName = testTests;
+			productReference = CEA3B0541E066FE300B8F83E /* testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA3B05E1E066FE300B8F83E /* testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA3B06E1E066FE300B8F83E /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildPhases = (
+				CEA3B05B1E066FE300B8F83E /* Sources */,
+				CEA3B05C1E066FE300B8F83E /* Frameworks */,
+				CEA3B05D1E066FE300B8F83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA3B0611E066FE300B8F83E /* PBXTargetDependency */,
+			);
+			name = testUITests;
+			productName = testUITests;
+			productReference = CEA3B05F1E066FE300B8F83E /* testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA3B02C1E066FE300B8F83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CYCU;
+				TargetAttributes = {
+					CEA3B0331E066FE300B8F83E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T3D5HQ68Z6;
+						ProvisioningStyle = Automatic;
+					};
+					CEA3B0531E066FE300B8F83E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEA3B0331E066FE300B8F83E;
+					};
+					CEA3B05E1E066FE300B8F83E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEA3B0331E066FE300B8F83E;
+					};
+				};
+			};
+			buildConfigurationList = CEA3B02F1E066FE300B8F83E /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA3B02B1E066FE300B8F83E;
+			productRefGroup = CEA3B0351E066FE300B8F83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA3B0331E066FE300B8F83E /* test */,
+				CEA3B0531E066FE300B8F83E /* testTests */,
+				CEA3B05E1E066FE300B8F83E /* testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA3B0321E066FE300B8F83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1DF271E1E3A6400292913 /* bob-esponja_reverse.png in Resources */,
+				504F98601E2387CE00A8A381 /* boss.png in Resources */,
+				CE03B9F71E2681DA007A6795 /* help.png in Resources */,
+				CEA3B0491E066FE300B8F83E /* Main.storyboard in Resources */,
+				CEE903231E18D5BB0044FC9E /* SpongeBob SquarePants theme instrumental.mp3 in Resources */,
+				CEE903221E18D5BB0044FC9E /* SpongeBob SquarePants Production Music - Tripping Upstairs.mp3 in Resources */,
+				CEA3B03E1E066FE300B8F83E /* GameScene.sks in Resources */,
+				CEBC333B1E1656970061E389 /* 2.png in Resources */,
+				CEE9031F1E18D5BB0044FC9E /* SoundOff.png in Resources */,
+				CEE903211E18D5BB0044FC9E /* Spongebob Closing Theme Song.mp3 in Resources */,
+				50DC81BA1E2336BD006341C4 /* start.png in Resources */,
+				CEA3B04B1E066FE300B8F83E /* Assets.xcassets in Resources */,
+				CE3A1C751E26C2000006F826 /* dead.png in Resources */,
+				CEA3B04E1E066FE300B8F83E /* LaunchScreen.storyboard in Resources */,
+				CEA3B0721E06706B00B8F83E /* bob-esponja.png in Resources */,
+				CEE903201E18D5BB0044FC9E /* SoundOn.png in Resources */,
+				CEA3B0401E066FE300B8F83E /* Actions.sks in Resources */,
+				504F98581E235B7D00A8A381 /* joyfish.png in Resources */,
+				504F98561E235B7D00A8A381 /* bubble.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA3B0521E066FE300B8F83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA3B05D1E066FE300B8F83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA3B0301E066FE300B8F83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE9032B1E18F3F50044FC9E /* HelpViewController.m in Sources */,
+				CEA3B0461E066FE300B8F83E /* GameViewController.m in Sources */,
+				CEA3B03C1E066FE300B8F83E /* AppDelegate.m in Sources */,
+				CEA3B0431E066FE300B8F83E /* GameScene.m in Sources */,
+				CEA3B0391E066FE300B8F83E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA3B0501E066FE300B8F83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA3B0591E066FE300B8F83E /* testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA3B05B1E066FE300B8F83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA3B0641E066FE300B8F83E /* testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA3B0561E066FE300B8F83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA3B0331E066FE300B8F83E /* test */;
+			targetProxy = CEA3B0551E066FE300B8F83E /* PBXContainerItemProxy */;
+		};
+		CEA3B0611E066FE300B8F83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA3B0331E066FE300B8F83E /* test */;
+			targetProxy = CEA3B0601E066FE300B8F83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA3B0471E066FE300B8F83E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA3B0481E066FE300B8F83E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA3B04C1E066FE300B8F83E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA3B04D1E066FE300B8F83E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA3B0661E066FE300B8F83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA3B0671E066FE300B8F83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA3B0691E066FE300B8F83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3D5HQ68Z6;
+				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cycu.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CEA3B06A1E066FE300B8F83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3D5HQ68Z6;
+				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cycu.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CEA3B06C1E066FE300B8F83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cycu.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+			};
+			name = Debug;
+		};
+		CEA3B06D1E066FE300B8F83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cycu.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+			};
+			name = Release;
+		};
+		CEA3B06F1E066FE300B8F83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cycu.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test;
+			};
+			name = Debug;
+		};
+		CEA3B0701E066FE300B8F83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cycu.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA3B02F1E066FE300B8F83E /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA3B0661E066FE300B8F83E /* Debug */,
+				CEA3B0671E066FE300B8F83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA3B0681E066FE300B8F83E /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA3B0691E066FE300B8F83E /* Debug */,
+				CEA3B06A1E066FE300B8F83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA3B06B1E066FE300B8F83E /* Build configuration list for PBXNativeTarget "testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA3B06C1E066FE300B8F83E /* Debug */,
+				CEA3B06D1E066FE300B8F83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA3B06E1E066FE300B8F83E /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA3B06F1E066FE300B8F83E /* Debug */,
+				CEA3B0701E066FE300B8F83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA3B02C1E066FE300B8F83E /* Project object */;
+}
